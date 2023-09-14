@@ -1,0 +1,146 @@
+@font-face{
+	font-family:Cursive;
+	src:url('JellykaWesternPrincess.ttf');
+}
+
+@font-face{
+	font-family:Quicksand;
+	src:url('QuickSand.otf');
+}
+
+@font-face{
+	font-family:Enchanted;
+	src:url('EnchantedPrairieDog.ttf');
+}
+
+#back{
+	background-color:black;
+	color:white;
+	margin-left:1%;
+	margin-top:1.5%;
+	opacity:0.8;
+	border: 1px solid black;
+	border-radius:5px;
+	padding:0.3%;
+	float:left;
+}
+
+#header{
+	padding-top:0.2%;
+	background-color:black;
+	color:white;
+	width:680px;
+	height:150px;
+	margin-bottom:2%;
+	opacity:0.8;
+	border-radius:5px;
+	float:right;
+}
+
+#first{
+	height:54%;
+	margin-top:5%;
+	text-align:center;
+}
+
+#body{
+	width:1000px;
+	height:inherit;
+	margin-right:12.5%;
+	background-color:black;
+	color:white;
+	opacity:0.8;
+	border: 2px solid white;
+	border-radius:10px;
+	float:right;
+	font-family:Quicksand;
+	text-align:center;
+}
+
+table#question{
+	margin:auto;
+}
+
+label{
+	color:white;
+	font-size:20px;
+}
+
+input{
+	font-size:20px;
+}
+
+#box{
+	width:50px;
+}
+
+#var, #cons{
+	width:150px;
+}
+
+#footer{
+	margin-top:2%;
+	margin-bottom:1%;
+	width:100%;
+	height:20px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-family:Quicksand;
+	font-size:15px;
+	opacity:0.8;
+	float:right;
+}
+
+a.heading{
+	font-size:90px;
+	font-family:Enchanted;
+	color:white;
+	margin-right:2%;
+}
+
+a.links{
+	text-decoration:none;
+	color:white;
+	font-size:35px;
+	font-family:Cursive;
+}
+
+a.links:hover{
+	background-color:white;
+	color:black;
+}
+
+table#myTable{
+	margin:auto;
+}
+
+td#each{
+	width:80px;
+	text-align:center;
+	color:white;
+}
+
+p{
+	margin-left:2%;
+	text-align:left;
+}
+
+p.final{
+	width:96%;
+	text-align:center;
+	font-weight:bold;
+	color:black;
+	background-color:white;
+}
+
+a.back{
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+
+a.back:hover{
+	color:pink;
+	font-size:25px;
+}
