@@ -12,11 +12,19 @@
             <input type="radio" class="form-check-input" name="category" id="max" value="max" checked="checked">
             <label class="form-check-label" for="max">Maksimum</label>
         </div>
-        {{-- <div class="form-check form-check-inline">
+        <div class="form-check form-check-inline">
             <input type="radio" class="form-check-input" name="category" id="min" value="min">
             <label class="form-check-label" for="min">Minimum</label>
-        </div> --}}
-
+        </div>
+        <br>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="metode" id="simplex" value="simplex" checked="checked">
+            <label class="form-check-label" for="simplex">Simplex</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="metode" id="aljabar" value="aljabar">
+            <label class="form-check-label" for="aljabar">Aljabar</label>
+        </div>
         <div class="form-group mt-3 mb-3">
             <label for="fungsiTujuan">Fungsi Tujuan</label>
             <div class="input-group">
@@ -45,7 +53,7 @@
                 @endfor
                 <select class="form-select mx-2" name="tanda{{$k}}">
                     <option value="kurangDari"><=</option>
-                    {{-- <option value="lebihDari">>=</option> --}}
+                    <option value="lebihDari">>=</option>
                 </select>
                 <input type="number" class="form-control" name="SA{{$k}}" placeholder="Solusi Awal">
             </div>

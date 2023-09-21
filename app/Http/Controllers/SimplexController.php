@@ -21,8 +21,23 @@ class SimplexController extends Controller
     }
 
     public function hitung(Request $request) {
+        if ($request->metode == 'simplex') {
+            return view('hasil');
+        } else{
+            function hitungKombinasi($n, $m) {
+                if ($m == 0 || $m == $n) {
+                    return 1;
+                } elseif ($m > $n) {
+                    return 0;
+                } else {
+                    return hitungKombinasi($n - 1, $m - 1) + hitungKombinasi($n - 1, $m);
+                }
+            }
 
+            return view('aljabar',[
 
-        return view('hasil');
+            ]);
+        }
+
     }
 }
