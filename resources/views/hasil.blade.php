@@ -144,7 +144,7 @@
                     if($minRow==$num[1])
                     {
                         $flag=1;
-                        echo "<p class='final'>Masalah tidak bisa dihitung </p>";
+                        echo "<p class='final'>Masalah tidak bisa dihitung1 </p>";
                         break;
                     }
                     $itr=$max+1;
@@ -237,7 +237,7 @@
                     echo "<br />";
                 }
                 if($max==100)
-                    echo "<p class='final'>Masalah tidak bisa dihitung </p>";
+                    echo "<p class='final'>Masalah tidak bisa dihitung2 </p>";
                 if($minRow!=$n && $flag!=1)
                 {
                     echo "<p class='final'>Tabel Hasil: Iterasi ke ".$itr." </p>";
@@ -442,7 +442,7 @@
                     if($minRow==$num[0])
                     {
                         $flag=1;
-                        echo "<p class='final'>Masalah tidak bisa dihitung </p>";
+                        echo "<p class='final'>Masalah tidak bisa dihitung3 </p>";
                         break;
                     }
                     $itr=$max+1;
@@ -503,10 +503,11 @@
                     echo "<br />";
                 }
                 if($max==100)
-                    echo "<p class='final'>Masalah tidak bisa dihitung. </p>";
+                    echo "<p class='final'>Masalah tidak bisa dihitung4. </p>";
                 if($minRow!=$n && $flag!=1)
                 {
-                    echo "<p class='final'>Tabel hasil: Iterasi ke-".$itr." </p>";
+                    echo "<p class='final'>Tabel Hasil </p>";
+
                     echo "<table border='1' id='myTable'>";
                         for ($th=1; $th <= $num[0] ; $th++) {
                         echo "<th class='text-center'>X".$th."</th>";
