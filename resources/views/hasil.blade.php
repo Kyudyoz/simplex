@@ -12,7 +12,6 @@
 
             if($_POST['category']=='max')
             {
-                $flag=0;
                 $minRow=0;
                 $num = array();
                 $i=0;
@@ -34,6 +33,7 @@
                             $valuesArray[$k-1][$j-1]=floatval($_POST["variabel$j"])*-1;
                     }
                 }
+                $flag=0;
                 for($i=1; $i<=$num[1]+1; $i++)
                 {
                     $k=0;
